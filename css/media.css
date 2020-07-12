@@ -1,0 +1,165 @@
+@media (max-width: 1220px) {
+	.advantage-text {
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 930px) {
+	.advantages {
+		margin-bottom: 50px;
+	}
+
+	.advantage-row {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.advantage-title {
+		position: static;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.advantage-text {
+		margin-bottom: 10px;
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.advantage-row:last-child {
+		margin-bottom: 20px;
+	}
+
+	.design-row {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.design-row-item {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 800px) {
+	.info-item-number span {
+		font-size: 64px;
+		line-height: 74px;
+	}
+
+	.video {
+		margin-bottom: 0px;
+	}
+
+	.design {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 650px) {
+	.info-item-title,
+	.info-item-description {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	.info-item-number span {
+		font-size: 48px;
+		line-height: 56px;
+	}
+
+	.advantage-text {
+		text-align: center;
+	}
+}
+
+@media (max-width: 550px) {
+	.design-row-item {
+		padding-right: 0;
+	}
+}
+
+@media (max-width: 500px) {
+	.info {
+		margin: 80px 0 20px;
+	}
+
+	.info-items {
+		flex-direction: column;
+	}
+
+	.info-item {
+		margin-bottom: 50px;
+	}
+
+	.info-item-title {
+		margin-bottom: 10px;
+	}
+
+	.design-row-item {
+		display: block;
+	}
+
+	.design-row-item-title {
+		text-align: center;
+	}
+
+	.design-row-item-text {
+		max-width: initial;
+	}
+
+	.design-image {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 440px) {
+	.header-content-title {
+		font-size: 48px;
+		line-height: 56px;
+	}
+
+	.video {
+		margin-bottom: -100px;
+	}
+
+	.menu-list a {
+		font-size: 32px;
+		line-height: 38px;
+		min-width: 100%;
+	}
+}
+
+@media (max-width: 400px) {
+	.footer-menu ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer-menu li:not(:last-child) {
+		border-right: none;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 350px) {
+	.logo img {
+		width: 200px;
+	}
+
+	.test-drive-button {
+		padding: 30px 42px;
+	}
+}
+
+/* iPhone 4 */
+@media (max-height: 480px) {
+	.header-content-title {
+		font-size: 32px;
+		line-height: 38px;
+	}
+
+	.header-content-text {
+		font-size: 18px;
+		line-height: 22px;
+	}
+}
